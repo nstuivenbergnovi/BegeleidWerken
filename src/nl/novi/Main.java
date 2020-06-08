@@ -39,8 +39,7 @@ public class Main {
 			System.out.println("Naam: " + studentFromList.getName());
 		}
 
-        Teacher teacher = new Teacher();
-        teacher.setName("Dennis");
+        Teacher teacher = new Teacher("Dennis");
 
 
 
@@ -56,5 +55,6 @@ public class Main {
         // Klasse met new aanmaakt en dan de methodes gebruikt uit die klasse
         // public, private en protected
         // Verschil static en non static
+		//Boter kaas en eieren vergelijken
     }
 }
